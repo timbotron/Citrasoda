@@ -1,0 +1,68 @@
+/* http://04.jp.org/ */
+@font-face {
+      font-family: "zero4";
+      src: url(0403.TTF);
+    }
+
+/* Begin Typography & Colors */
+body {
+	font-size: 16px; 
+	font-family: zero4, sans-serif;
+	color: #FFBF00;
+	background-color: black
+	}
+#content {
+	width:500px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+.center {
+	text-align: center;
+}
+.header {
+	font-size: 8px; 
+	margin: -1px 0 0 0;
+	width: auto;
+	border-top: 1px solid #FFBF00;
+}
+.entrytxt {
+	margin: 0 0 0 0;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	border-bottom: 1px dotted #FFFF99;
+	color: #FFBF00;	
+}
+input, textarea, select {
+	padding: 2px;
+	margin: 3px 0 10px 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFBF00;
+	background-color: #000;
+	color: #FFBF00;
+	font-family: zero4, sans-serif;
+	font-size: 16px;
+}
+textarea {
+	width: 400px;
+}
+
+.entry {
+	padding: 0 0 0 4px;
+	margin: 0 0 8px 0;
+	width: 498px;
+	border-left: 3px solid #FFBF00;
+
+}
+.error { color: #FF0033; }
+h1 {
+	font-size: 72px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.small { width:60px; }
+.med { width:120px; }
+.large { width:240px; }
+

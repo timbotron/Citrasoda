@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<tags>
+  <ohya>
+    <index>0</index>
+    <index>1</index>
+    <index>3</index>
+    <index>5</index>
+    <index>7</index>
+    <index>8</index>
+    <index>11</index>
+    <index>13</index>
+  </ohya>
+  <boosh>
+    <index>1</index>
+  </boosh>
+  <fun>
+    <index>1</index>
+    <index>11</index>
+  </fun>
+  <another>
+    <index>3</index>
+  </another>
+  <dork>
+    <index>4</index>
+  </dork>
+  <it>
+    <index>2</index>
+    <index>5</index>
+    <index>9</index>
+  </it>
+  <citrasoda>
+    <index>10</index>
+  </citrasoda>
+  <Dad>
+    <index>12</index>
+  </Dad>
+</tags>
