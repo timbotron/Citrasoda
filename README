@@ -1,31 +1,33 @@
-Project:
+# Project: #
 Citrasoda
 
-Contributors:
+## Contributors: ##
 Tim Habersack
 
-Summary:
+## Summary: ##
 Citrasoda is a web-based tool to record notes. Supports tagging, and custom elements. Also sports a wicked cool retro look thanks to the font 03 from http://04.jp.org/.
 
-Notable features include:
+### Notable features include: ###
 
-   * Extremely lightweight, only eight files.
-   * No database required! All data is stored in XML files, making it very simple to install, and back up.
-   * Tagging functionality included.
-   * Ability to create custom elements to record, such as hours, or location. Numerical custom elements are tallied up for tags.
-   * Password protected
+* Extremely lightweight, only eight files.
+* No database required! All data is stored in XML files, making it very simple to install, and back up.
+* Tagging functionality included.
+* Ability to create custom elements to record, such as hours, or location. Numerical custom elements are tallied up for tags.
+* Password protected
 
-Usage examples:
+### Usage examples: ###
 
-   * Perfect for simple project tracking. Keeping track of notes with tags.
-   * Track hours spent on projects. Add a custom element for hours, then group your projects with tags.
-   * Use it like a private log, diary, etc.
-   * The fun cannot be halted.
+* Perfect for simple project tracking. Keeping track of notes with tags.
+* Track hours spent on projects. Add a custom element for hours, then group your projects with tags.
+* Use it like a private log, diary, etc.
+* The fun cannot be halted.
 
-Setup:
+## Setup: ##
 Use the config.php file and change the password to your desired password.  Also, for added security be sure to rename the two xml files, then make note of the changes in the config.php file. The config.php also contains the code for the custom elements.
 
-TODO:
-   * Do error checking on write permissions, so if the write permissions aren't correct on the xml files, to gen that proper error
-   * Write documentation
+### TODO: ###
+* Do error checking on write permissions, so if the write permissions aren't correct on the xml files, to gen that proper error
+* Do a tag reprocessing script for when...
+* Functionality to delete entries
+* Write documentation
 

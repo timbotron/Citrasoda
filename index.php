@@ -13,7 +13,7 @@ if(md5($password."grapefruit")!=$_GET['auth'])
 echo "<html><head><title>Citrasoda</title><meta name=\"viewport\" content=\"width=device-width\"><link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\" media=\"screen\" /><link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\" /></head><body><div id=\"content\">\n";
 echo "<div class=\"center\"><img src=\"citrasoda.big.png\" height=\"80\" width=\"80\" /><h1>CITRASODA</h1><form name=\"loginform\" action=\"index.php?action=login\" method=\"post\">\n";
 echo "<label for=\"entrytext\">Password:</label>\n";
-echo "<input type=\"password\" name=\"password\" value=\"password\"/><br />\n";
+echo "<input type=\"password\" name=\"password\"/><br />\n";
 echo "<input type=\"submit\" value=\"Log In\"/></form></div></div></body></html>";
 exit;
 }
@@ -75,7 +75,9 @@ function tagit($passedtagxml,$entry,$entryid)
 }
 //END FUNCTIONS
 //PROCESSING
-if ("add" == $_GET['action']) //adding an entry to xml
+
+//adding an entry to xml
+if ("add" == $_GET['action']) 
 {
 	if(empty($_POST['entrytext']))
 	{
@@ -116,7 +118,9 @@ if ("add" == $_GET['action']) //adding an entry to xml
 		}
 	}
 }
-if ("tag" == $_GET['action'] && isset($_GET['tag']))  //if viewing specific tag entries
+
+//if viewing specific tag entries
+if ("tag" == $_GET['action'] && isset($_GET['tag']))  
 {
 	 if(isset($extra))
 	{
@@ -144,7 +148,9 @@ if ("tag" == $_GET['action'] && isset($_GET['tag']))  //if viewing specific tag 
 	 }
 	 rsort($viewingtags);
 }
-if ("viewtags" == $_GET['action'])  //if usr wants to see all tags
+
+//if usr wants to see all tags
+if ("viewtags" == $_GET['action'])  
 {
 	$link="index.php?auth=".$_GET['auth']."&action=tag&tag=";
 	$arcount=0;
@@ -200,7 +206,8 @@ if(isset($extra))
 <input type="submit" value="Add Entry"/>
 </form>
 <?php
- if(-1!=$viewingtags[0]) //if viewing 1 tag
+  //if viewing 1 tag
+ if(-1!=$viewingtags[0])
  {
  	$bonus='';
  	if(isset($extra))
@@ -229,7 +236,8 @@ if(isset($extra))
 	}
 
 }
-else //if standard viewing entries
+//if standard viewing entries
+else 
 {
 	$dom = new DOMDocument('1.0');
 	$dom->preserveWhiteSpace = false;
