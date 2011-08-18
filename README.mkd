@@ -25,9 +25,12 @@ Citrasoda is a web-based tool to record notes. Supports tagging, and custom elem
 ## Setup: ##
 Use the config.php file and change the password to your desired password.  Also, for added security be sure to rename the two xml files, then make note of the changes in the config.php file. The config.php also contains the code for the custom elements.
 
-### TODO: ###
+## TODO: ##
 * Do error checking on write permissions, so if the write permissions aren't correct on the xml files, to gen that proper error
 * Do a tag reprocessing script for when...
 * Functionality to delete entries
 * Write documentation
 
+## License ##
+
+Citrasoda by Tim Habersack is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
